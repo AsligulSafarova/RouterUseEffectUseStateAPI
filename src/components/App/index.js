@@ -39,10 +39,10 @@ function App() {
         brand,
         images,
         count: 1
-
       }])
     }
   };
+
   const addCount = id => {
     const target = basket.find(el => el.id === id);
     if (target) {
@@ -61,8 +61,6 @@ function App() {
       target.count--;
       setBasket([...basket])
     }
-
-
   }
 
   useEffect(() => {

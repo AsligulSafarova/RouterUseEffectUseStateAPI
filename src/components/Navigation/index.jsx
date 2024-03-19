@@ -11,7 +11,6 @@ import Footer from '../Footer';
 export default function Navigation() {
     const { basket } = useContext(Context);
     const countSumm = (basket.reduce((item, { count }) => item + count, 0))
-
     const check_active = ({ isActive }) => isActive ? "active" : " ";
     return (
         <Fragment>

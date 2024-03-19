@@ -5,6 +5,7 @@ import s from "./style.module.sass";
 import { Rate } from 'antd';
 import { EyeOutlined } from "@ant-design/icons";
 
+
 export default function Description() {
     const [descr, setDescr] = useState([]);
     const { id } = useParams()
